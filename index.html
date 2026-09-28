@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>الشرق لتوكيلات المواد الغذائية</title>
+
+    <!-- WhatsApp / Facebook Preview -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title"
+          content="الشرق لتوكيلات المواد الغذائية">
+
+    <meta property="og:description"
+          content="الشرق لتوكيلات المواد الغذائية">
+
+    <meta property="og:url"
+          content="https://elsharq.hstn.me/">
+
+    <meta property="og:image"
+          content="https://i.postimg.cc/4dL0rK1K/1000379712.png">
+
+    <meta property="og:image:secure_url"
+          content="https://i.postimg.cc/4dL0rK1K/1000379712.png">
+
+    <meta property="og:image:type"
+          content="image/png">
+
+    <meta property="og:image:width"
+          content="1200">
+
+    <meta property="og:image:height"
+          content="630">
+
+    <meta property="og:site_name"
+          content="الشرق لتوكيلات المواد الغذائية">
+
+
+    <!-- Twitter -->
+
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <meta name="twitter:title"
+          content="الشرق لتوكيلات المواد الغذائية">
+
+    <meta name="twitter:description"
+          content="توكيلات المواد الغذائية">
+
+    <meta name="twitter:image"
+          content="https://i.postimg.cc/4dL0rK1K/1000379712.png">
+
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            font-family:
+                Tahoma,
+                Arial,
+                sans-serif;
+
+            background:
+                radial-gradient(
+                    circle at 10% 10%,
+                    rgba(30, 105, 220, 0.12),
+                    transparent 30%
+                ),
+
+                radial-gradient(
+                    circle at 90% 90%,
+                    rgba(30, 105, 220, 0.10),
+                    transparent 30%
+                ),
+
+                linear-gradient(
+                    135deg,
+                    #f7faff,
+                    #edf4fc
+                );
+
+            color: #172033;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+        }
+
+
+        .container {
+            width: 100%;
+            max-width: 470px;
+            text-align: center;
+        }
+
+
+        .company-name {
+            font-size: 14px;
+            font-weight: bold;
+            color: #1769d3;
+            margin-bottom: 15px;
+        }
+
+
+        .card {
+            background: rgba(255,255,255,0.96);
+
+            border-radius: 30px;
+
+            padding:
+                35px
+                25px
+                28px;
+
+            box-shadow:
+                0 20px 60px
+                rgba(20,60,110,0.14);
+
+            border:
+                1px solid
+                rgba(255,255,255,0.8);
+        }
+
+
+        .logo-box {
+            width: 155px;
+            height: 155px;
+
+            margin:
+                0 auto
+                22px;
+
+            padding: 8px;
+
+            background: white;
+
+            border-radius: 28px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            box-shadow:
+                0 12px 35px
+                rgba(20,70,140,0.13);
+        }
+
+
+        .logo {
+            width: 100%;
+            height: 100%;
+
+            object-fit: contain;
+
+            border-radius: 20px;
+        }
+
+
+        h1 {
+            margin: 0;
+
+            color: #142e52;
+
+            font-size: 27px;
+
+            line-height: 1.5;
+        }
+
+
+        .line {
+            width: 60px;
+            height: 4px;
+
+            background: #1769d3;
+
+            border-radius: 10px;
+
+            margin:
+                14px
+                auto
+                18px;
+        }
+
+
+        .description {
+            margin: 0 auto 25px;
+
+            max-width: 370px;
+
+            color: #667085;
+
+            font-size: 15px;
+
+            line-height: 1.9;
+        }
+
+
+        /* زر التوكيل */
+
+        .order-button {
+            width: 100%;
+
+            min-height: 58px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 10px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #2380ed,
+                    #075bc9
+                );
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 16px;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+            box-shadow:
+                0 10px 25px
+                rgba(15,95,205,0.25);
+
+            transition:
+                0.2s ease;
+        }
+
+
+        .order-button:hover {
+            transform:
+                translateY(-2px);
+
+            box-shadow:
+                0 14px 30px
+                rgba(15,95,205,0.32);
+        }
+
+
+        .order-button:active {
+            transform:
+                translateY(0);
+        }
+
+
+        .order-icon {
+            font-size: 25px;
+            line-height: 1;
+        }
+
+
+        /* منطقة التطبيق */
+
+        .app-section {
+            margin-top: 18px;
+
+            padding-top: 18px;
+
+            border-top:
+                1px solid
+                #e6ebf2;
+        }
+
+
+        .app-title {
+            margin-bottom: 8px;
+
+            color: #142e52;
+
+            font-size: 15px;
+
+            font-weight: bold;
+
+            line-height: 1.7;
+        }
+
+
+        .app-description {
+            margin: 0 0 12px;
+
+            color: #7a8496;
+
+            font-size: 12px;
+
+            line-height: 1.7;
+        }
+
+
+        /* زر تثبيت التطبيق */
+
+        .install-button {
+            width: 100%;
+
+            min-height: 52px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 9px;
+
+            background: #eef5ff;
+
+            color: #1769d3;
+
+            border:
+                1px solid
+                #cfe1fb;
+
+            border-radius: 14px;
+
+            font-size: 15px;
+
+            font-weight: bold;
+
+            text-decoration: none;
+
+            transition: 0.2s ease;
+        }
+
+
+        .install-button:hover {
+            background: #e3efff;
+
+            transform:
+                translateY(-1px);
+        }
+
+
+        .install-icon {
+            font-size: 21px;
+        }
+
+
+        .info {
+            margin-top: 14px;
+
+            color: #98a2b3;
+
+            font-size: 12px;
+        }
+
+
+        footer {
+            margin-top: 20px;
+
+            color: #8a94a6;
+
+            font-size: 12px;
+
+            line-height: 1.7;
+        }
+
+
+        @media (max-width: 420px) {
+
+            body {
+                padding: 15px;
+            }
+
+            .card {
+                padding:
+                    28px
+                    20px
+                    25px;
+            }
+
+            .logo-box {
+                width: 135px;
+                height: 135px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .description {
+                font-size: 14px;
+            }
+
+            .order-button {
+                font-size: 17px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <div class="company-name">
+        الشرق لتوكيلات المواد الغذائية
+    </div>
+
+
+    <div class="card">
+
+
+        <!-- اللوجو -->
+
+        <div class="logo-box">
+
+            <img
+                class="logo"
+
+                src="https://i.postimg.cc/4dL0rK1K/1000379712.png"
+
+                alt="شعار الشرق لتوكيلات المواد الغذائية"
+
+                loading="eager"
+            >
+
+        </div>
+
+
+        <!-- اسم الشركة -->
+
+        <h1>
+            الشرق لتوكيلات المواد الغذائية
+        </h1>
+
+
+        <div class="line"></div>
+
+
+        <!-- الوصف -->
+
+        <p class="description">
+
+            متخصصون في
+            <strong>
+                توكيل وتوزيع المنتجات الغذائية
+            </strong>
+            وتوفير فرص التعاون للتجار والموزعين
+            وأصحاب الأنشطة التجارية.
+
+        </p>
+
+
+        <!-- زر طلب التوكيل -->
+
+        <a
+            class="order-button"
+            href="#agency"
+        >
+
+            <span class="order-icon">
+                📋
+            </span>
+
+            <span>
+                قدم طلب توكيل الآن
+            </span>
+
+        </a>
+
+
+        <!-- قسم التطبيق -->
+
+        <div class="app-section" id="agency">
+
+            <div class="app-title">
+
+                قم بتثبيت التطبيق لتقديم طلب توكيل
+
+            </div>
+
+
+            <p class="app-description">
+
+                ثبّت تطبيق الشرق للوصول بسهولة إلى خدمات التوكيلات
+                وتقديم طلب التوكيل ومتابعة الطلب.
+
+            </p>
+
+
+            <a
+                class="install-button"
+                href="#install"
+            >
+
+                <span class="install-icon">
+                    📲
+                </span>
+
+                <span>
+                    تثبيت التطبيق وتقديم طلب توكيل
+                </span>
+
+            </a>
+
+        </div>
+
+
+        <div class="info">
+
+            توكيلات • توزيع • منتجات غذائية
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+
+        جميع الحقوق محفوظة ©
+        الشرق لتوكيلات المواد الغذائية
+
+    </footer>
+
+
+</div>
+
+
+</body>
+
+</html>
